@@ -1,0 +1,46 @@
+
+// import express from "express";
+// import fs from "fs";
+// const app = express()
+// app.use(express.json())
+// export const bilal =function(req,res,next){
+//     console.log("data---",req.query.login_user);
+//     if (req.query.login_user == "1") {
+//     next();
+//     }else{
+//         res.send("you token is not vaid")
+//     }
+    
+// } 
+// app.use(bilal)
+// app.post ("/josnfile",(req,res)=>{
+//     var buf = JSON.stringify(req.body)
+//     console.log("my Buffer",req.body )
+
+
+//     fs.writeFile("royal_txt",buf,function(ck){
+//         if (ck ) {
+//            throw ck; 
+//         }else{
+//             res.send("created")
+//         }
+//     console.log("saved")
+//     })
+// })
+
+
+// app.post("/josnfile",(req,res)=>{
+    
+//     fs.readFile("user.json",function(req,res){
+//         if(ck){
+//     throw ck
+//         }else{
+//             req.send("you or feli ")
+//         }
+//         console.log("bhati")
+//     })
+// })
+
+// app.listen(3002,(request,response) =>{
+//     console.log("Yes your server connected with PORT:3002");
+// })
